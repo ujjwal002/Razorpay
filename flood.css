@@ -1,0 +1,128 @@
+.style {
+    background-color: #ffffff;
+    
+}
+
+body{
+    background-image:url("charity.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.nav ul{
+    background-image: url(flood.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    list-style: none;
+    height: 55px;
+    line-height: 55px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: right;
+}
+.nav li{
+    display:  inline-block;
+    border-right: 1px solid ;
+   
+    
+    
+    
+}
+a{
+    display: block;
+    padding: 0 28px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+a:hover{
+   
+    color:rgb(238, 238, 85);
+    list-style: none;
+    
+}
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 300px;
+    
+}
+
+body { margin:20px; background:hsl(70, 31%, 85%); text-align:center;background-image: url("charity.jpg");  background-repeat: no-repeat; background-size: cover; }
+
+.balloon {
+  display:inline-block;
+   width:120px;
+  height:145px;
+  background:hsl(215,50%,65%);
+  border-radius:80%;
+  position:relative;
+  box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
+  margin:20px 30px;
+  transition:transform 0.5s ease;
+  z-index:10;
+  animation:balloons 4s ease-in-out infinite;
+  transform-origin:bottom center;
+}
+
+@keyframes balloons {
+  0%,100%{ transform:translateY(0) rotate(-4deg); }
+  50%{ transform:translateY(-25px) rotate(4deg); }
+}
+
+
+.balloon:before {
+  content:"▲";
+  font-size:20px;
+  color:hsl(215,30%,50%);
+  display:block;
+  text-align:center;
+  width:100%;
+  position:absolute;
+  bottom:-12px;
+  z-index:-100;
+}
+
+.balloon:after {
+ display:inline-block; top:153px;
+  position:absolute;
+  height:250px;
+  width:1px;
+  margin:0 auto;
+  content:"";
+  background:rgba(0,0,0,0.2); 
+}
+
+.balloon:nth-child(2){ background:orange; animation-duration:3.5s; }
+.balloon:nth-child(2):before { color:orange;  }
+
+.balloon:nth-child(3){ background:white; animation-duration:3s; }
+.balloon:nth-child(3):before { color:white;  }
+
+.balloon:nth-child(4){ background:green; animation-duration:4.5s; }
+.balloon:nth-child(4):before { color:green;  }
+
+.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
+.balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
+
+.button {
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 300px;
+}
+
+
+
