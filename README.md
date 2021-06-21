@@ -12,4 +12,4 @@ invoice will contain the amount.
 party for integrations.
 ◇ Host the website at 000webhost, github.io, heroku app or any
 other free hosting provider. Check in code in gitlab.
-This website link:http:\donateforflood.000webhostapp.com
+This website link:http://donateforflood.000webhostapp.com
